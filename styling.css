@@ -1,0 +1,70 @@
+body {
+    background-color:plum;
+    background-image: url(../Desktop/2HwK.gif);
+}
+
+#responseContainer{
+    position: absolute;
+    align-content: center;
+    left: 35%;
+    top:15%;
+}   
+
+#invitation{
+    position: absolute;
+    align-content: center;
+    left: 35%;
+    top:15%;
+}
+
+.valentine-image {
+    max-width: 300px; /* Set the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    text-align: center;
+    
+}
+
+#responseMessage {
+    position: absolute;
+    align-content: center;
+    left: 35%;
+    top:15%;
+}
+
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust as needed */
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d44691;
+    text-align: center;
+}
+
+.imageContainer{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+img{
+    align-items: center;
+}
+
+button {
+    margin-top: 20px; /* Adjust as needed */
+}
