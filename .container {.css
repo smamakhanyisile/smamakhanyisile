@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+.valentine-image {
+    max-width: 300px; /* Set the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#responseMessage {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d44691;
+}
