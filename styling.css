@@ -70,8 +70,8 @@ img{
 }
 #James{
     display:flex;
-    width: 10%;
-    height: 10%;
+    width: 30px;
+    height: auto;
     position:absolute;
 }
     
