@@ -69,8 +69,7 @@ img{
     text-align: center;
 }
 #James{
-    align-items:center;
-  align-items: center;
+    display:flex;
     width: 10%;
     height: 10%;
     position:absolute;
