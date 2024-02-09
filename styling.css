@@ -1,6 +1,6 @@
 body {
     background-color:plum;
-    background-image: url(../Desktop/2HwK.gif);
+    background-image: url(https://github.com/smamakhanyisile/smamakhanyisile/blob/main/2HwK.gif?raw=true);
 }
 
 #responseContainer{
@@ -65,7 +65,7 @@ img{
     align-items: center;
     width: 100%;
     height: 100%;
-    left: 100%;
+    left: 80%;
 }
     
 }
