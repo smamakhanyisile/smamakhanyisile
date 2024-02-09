@@ -64,13 +64,13 @@ button {
 img{
     display:flex;
     width: 30px;
-    height: auto;
+    height: 30px;
     position:absolute
 }
 #James{
     display:flex;
     width: 30px;
-    height: auto;
+    height: 30px;
     position:absolute;
 }
     
