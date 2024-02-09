@@ -18,7 +18,7 @@ body {
 }
 
 .valentine-image {
-    max-width: 300px; /* Set the maximum width of the image */
+    max-width: 30px; /* Set the maximum width of the image */
     height: auto; /* Maintain aspect ratio */
     text-align: center;
     
