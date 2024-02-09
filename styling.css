@@ -70,8 +70,10 @@ img{
 }
 #James{
     align-items:center;
-    width:15%;
-    height:15%;
+  align-items: center;
+    width: 10%;
+    height: 10%;
+    position:absolute;
 }
     
 }
