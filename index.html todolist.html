@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<style>
+    ul {
+        list-style-type: none;
+    }
+</style>
+</head>
+<body>
+
+<h2>My To-Do List</h2>
+
+<input type="text" id="taskInput" placeholder="Enter task...">
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList">
+    <!-- Tasks will be dynamically added here -->
+</ul>
+
+<script>
+function addTask() {
+    var taskInput = document.getElementById("taskInput");
+    var taskList = document.getElementById("taskList");
+
+    // Get the value of the input field
+    var taskText = taskInput.value;
+
+    // If the input is not empty
+    if (taskText.trim() !== "") {
+        // Create a new list item
+        var listItem = document.createElement("li");
+        // Add bullet point to the task
+        listItem.innerHTML = "&#8226; " + taskText;
+        // Append the task to the task list
+        taskList.appendChild(listItem);
+        // Clear the input field
+        taskInput.value = "";
+    } else {
+        alert("Please enter a task!");
+    }
+}
+</script>
+
+</body>
+</html>
